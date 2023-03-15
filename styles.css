@@ -8,4 +8,13 @@ body {
     background-color: rgb(140, 166, 250);
     text-align: center; 
 }
+#socialMedia {
+    width: 400px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    border: 2px solid rgb(221, 199, 199);
+    border-radius: 5px;
+  }
 
