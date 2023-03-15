@@ -1,7 +1,12 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(font/FOTNewRodin\ Pro\ B.otf);
+  }
 body {
     background-color: rgb(255, 255, 255);
 }
 .mainDiv {
+    font-family: myFirstFont;
     border-radius: 25px;
     border: 2px outset rgb(0, 0, 0);
     background-color: #8EC5FC;
