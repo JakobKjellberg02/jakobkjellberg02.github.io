@@ -12,20 +12,17 @@ body {
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     background-attachment: fixed;
-    overflow:hidden;
+    display: flex;
 }
 #socialMedia {
     padding: 10px;
     position: relative;
   }
 #thing {
-  display: inline-block;
+  flex: 1;
 }
 #thing2 {
-  vertical-align:top;
-    display: inline-block;
-    height: inherit;
-    border: 2px outset rgb(0, 0, 0);
+  width: 50%;
 }
 
 
