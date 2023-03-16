@@ -12,7 +12,9 @@ body {
     background-color: #8EC5FC;
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     background-attachment: fixed;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
 }
 #socialMedia {
     padding: 10px;
@@ -30,13 +32,15 @@ body {
   padding: 0 4px;
 }
 
-/* Create two equal columns that sits next to each other */
-.column {
-  flex: 50%;
-  padding: 0 4px;
+.right-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 200px;
+  grid-gap: 20px;
 }
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
+.grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
