@@ -1,12 +1,8 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(font/FOTNewRodin\ Pro\ B.otf);
-  }
 body {
     background-color: rgb(255, 255, 255);
+    font-family: Helvetica;
 }
 .mainDiv {
-    font-family: myFirstFont;
     border-radius: 25px;
     border: 2px outset rgb(0, 0, 0);
     background-color: #8EC5FC;
@@ -23,4 +19,8 @@ body {
 .left-div {
   border-radius: 25px;
   border: 1px outset rgb(0, 0, 0);
+  width: 100%;
+  height: 500px;
+  float: left;
+  overflow: hidden;
 }
