@@ -24,16 +24,3 @@ body {
   border-radius: 25px;
   border: 1px outset rgb(0, 0, 0);
 }
-/*.right-div {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 200px;
-  grid-gap: 20px;
-}
-*/
-
-.grid img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
