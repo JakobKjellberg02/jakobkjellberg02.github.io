@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # URL to fetch the latest update message 
-UPDATE_URL="https://jakobkjellberg02.github.io/update.txt"
+UPDATE_URL="https://jakobkjellberg02.xyz/update.txt"
 
 echo -e "\033[31m          _       _         _     _  ___      _ _ _                     ___ ___  \033[0m
 \033[32m          | |     | |       | |   | |/ (_)    | | | |                   / _ \\__ \\ \033[0m
